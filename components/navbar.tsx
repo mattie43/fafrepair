@@ -82,11 +82,11 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:+15551234567"
+              href={`tel:+${phoneNumber}`}
               className="flex items-center gap-2 text-base font-medium text-foreground py-2"
             >
               <Phone className="h-4 w-4 text-accent" />
-              (555) 123-4567
+              {phoneNumber}
             </a>
             <Button asChild className="w-full">
               <Link href="#contact" onClick={() => setMobileOpen(false)}>

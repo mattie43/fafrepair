@@ -17,8 +17,7 @@ export function Footer() {
             </Link>
             <p className="text-sm text-background/60 leading-relaxed">
               Trusted small engine repair for outdoor power equipment, ATVs, and
-              dirt bikes. Serving the Millfield community and surrounding areas
-              since 2005.
+              dirt bikes.
             </p>
           </div>
 
@@ -30,8 +29,6 @@ export function Footer() {
               <ul className="flex flex-col gap-3">
                 {[
                   { href: "#services", label: "Services" },
-                  { href: "#about", label: "About Us" },
-                  { href: "#testimonials", label: "Testimonials" },
                   { href: "#contact", label: "Contact" },
                 ].map((link) => (
                   <li key={link.href}>
@@ -73,9 +70,7 @@ export function Footer() {
                 Hours
               </h4>
               <ul className="flex flex-col gap-3 text-sm text-background/60">
-                <li>Mon - Fri: 7AM - 5PM</li>
-                <li>Saturday: 8AM - 12PM</li>
-                <li>Sunday: Closed</li>
+                <li>Mon - Sun: 7AM - 5PM</li>
               </ul>
             </div>
           </div>
@@ -83,11 +78,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-background/40">
-            &copy; {new Date().getFullYear()} Farm & Field Small Engine Repair.
-            All rights reserved.
-          </p>
-          <p className="text-xs text-background/40">
-            4821 County Road 12, Millfield, OH 45761
+            Farm & Field Small Engine Repair. All rights reserved.
           </p>
         </div>
       </div>
